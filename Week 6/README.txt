@@ -1,0 +1,1 @@
+A basic code to understand the working of GET method in PHP. 
