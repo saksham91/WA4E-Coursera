@@ -4,7 +4,6 @@
 	$error = false;
 	$salt = 'XyZzy12*_';
 	$stored_hash = '1a52e17fa899cf40fb04cfc42e6352f1';
-
 	if (isset($_POST['who']) && isset($_POST['pass']))
 	{
 		$pass = $_POST['pass'];
@@ -20,7 +19,7 @@
 		{
 		header("Location: game.php?name=".urlencode($_POST['who']));
 		}
-
+		//plaintext pwd is php123
 	}
 
 ?>
@@ -43,3 +42,4 @@
 		?>
 	</body>
 </html>
+
